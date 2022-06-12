@@ -1,2 +1,3 @@
 date
 cal 
+whoami
