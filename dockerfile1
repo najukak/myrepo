@@ -1,0 +1,9 @@
+vi Dockerfile
+FROM ubuntu
+MAINTAINER najuka
+
+RUN apt-get update
+
+RUN apt-get install -y nginx
+CMD ["echo","Image Created"]
+:wq
